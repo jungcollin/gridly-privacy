@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gridly 개인정보처리방침</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+        color: #17202a;
+        background: #ffffff;
+      }
+
+      body {
+        margin: 0;
+        padding: 48px 20px;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 32px;
+        line-height: 1.2;
+      }
+
+      h2 {
+        margin: 32px 0 12px;
+        font-size: 20px;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+        line-height: 1.7;
+      }
+
+      .date {
+        margin: 0 0 32px;
+        color: #667085;
+      }
+
+      code {
+        padding: 2px 5px;
+        border-radius: 4px;
+        background: #f2f4f7;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Gridly 개인정보처리방침</h1>
+      <p class="date">시행일: 2026년 5월 8일</p>
+
+      <p>
+        Gridly는 사용자의 개인정보를 수집, 전송, 판매 또는 공유하지 않습니다.
+      </p>
+
+      <p>
+        Gridly는 브라우저 안에서만 동작하며, 사용자가 선택하거나 현재 페이지에서
+        감지된 그리드 형태의 영역에 레이아웃 변경을 적용합니다. Gridly는 페이지
+        내용, 방문 기록, 계정 정보, 개인 식별자 또는 YouTube 계정 정보를 개발자
+        서버나 외부 서버로 전송하지 않습니다.
+      </p>
+
+      <h2>저장되는 데이터</h2>
+      <p>
+        Gridly는 사용자의 레이아웃 설정만 Chrome <code>storage.sync</code>에
+        저장합니다. 저장될 수 있는 설정은 다음과 같습니다.
+      </p>
+      <ul>
+        <li>Gridly 사용 여부</li>
+        <li>한 줄에 표시할 항목 수</li>
+        <li>반응형 설정</li>
+        <li>최소 카드 너비</li>
+        <li>항목 간격</li>
+        <li>Shorts 처리 방식</li>
+        <li>적용 범위: 현재 페이지, 페이지 패턴 또는 전체 사이트</li>
+        <li>사용자가 입력하거나 선택한 CSS 선택자</li>
+      </ul>
+      <p>
+        이 설정은 사용자가 선택한 범위에 맞는 페이지를 다시 방문했을 때 같은
+        레이아웃을 적용하기 위해서만 사용됩니다.
+      </p>
+
+      <h2>권한 사용</h2>
+      <ul>
+        <li><code>activeTab</code>: 사용자가 확장 프로그램을 조작한 현재 탭에 레이아웃 변경을 적용하기 위해 사용합니다.</li>
+        <li><code>storage</code>: 페이지, 페이지 패턴 또는 사이트별 설정을 저장하기 위해 사용합니다.</li>
+        <li><code>scripting</code>: 이미 열려 있는 탭에 content script가 준비되지 않은 경우 Gridly를 주입하기 위해 사용합니다.</li>
+        <li>content scripts: 그리드 컨테이너를 감지하고 CSS 레이아웃 변경을 로컬에서 적용하기 위해 사용합니다.</li>
+      </ul>
+
+      <h2>외부 서비스</h2>
+      <p>
+        Gridly는 원격 서버, 분석 도구, 광고 SDK, 추적 픽셀 또는 제3자 데이터
+        처리 서비스를 사용하지 않습니다.
+      </p>
+
+      <h2>데이터 삭제</h2>
+      <p>
+        사용자는 Gridly 팝업의 <strong>현재 범위 초기화</strong> 또는
+        <strong>전체 초기화</strong> 기능으로 저장된 설정을 삭제할 수 있습니다.
+        Chrome에서 Gridly를 제거하면 확장 프로그램 데이터도 삭제됩니다.
+      </p>
+
+      <h2>문의</h2>
+      <p>
+        지원 또는 개인정보 관련 문의는 Chrome 웹 스토어 등록정보에 표시된
+        개발자 이메일로 연락해 주세요.
+      </p>
+    </main>
+  </body>
+</html>
